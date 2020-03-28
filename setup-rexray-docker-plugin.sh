@@ -18,5 +18,5 @@ docker plugin install rexray/s3fs \
 docker plugin install rexray/efs \
     EFS_ACCESSKEY=$EFS_ACCESSKEY \
     EFS_SECRETKEY=$EFS_SECRETKEY \
-    EFS_TAG=rexray-efs \
+    EFS_TAG=rexray \
     --grant-all-permissions

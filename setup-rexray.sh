@@ -28,7 +28,7 @@ efs:
   accessKey:           $EFS_ACCESSKEY
   secretKey:           $EFS_SECRETKEY
   region:              $EFS_REGION
-  tag:                 test
+  tag:                 rexray
   disableSessionCache: false
   statusMaxAttempts:   6
   statusInitialDelay:  1s
