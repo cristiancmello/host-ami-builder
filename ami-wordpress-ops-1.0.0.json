@@ -63,5 +63,12 @@
       "type": "shell",
       "script": "./setup-docker-pull-default-images.sh"
     }
+  ],
+  "post-processors": [
+    {
+      "type": "manifest",
+      "output": "manifest.json",
+      "strip_path": true
+    }
   ]
 }
