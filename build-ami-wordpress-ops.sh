@@ -13,3 +13,5 @@
     -var "efs_accesskey=$EFS_ACCESSKEY" \
     -var "efs_secretkey=$EFS_SECRETKEY" \
     ami-wordpress-ops-1.0.0.json
+
+./get-manifest-ami.sh
