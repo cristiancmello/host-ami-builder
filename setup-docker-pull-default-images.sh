@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker pull portainer/portainer
+docker pull portainer/portainer:1.23.2
