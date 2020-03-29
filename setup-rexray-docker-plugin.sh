@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo systemctl restart rexray
+sudo systemctl start rexray
 sleep 3
 
 docker plugin install rexray/ebs \
