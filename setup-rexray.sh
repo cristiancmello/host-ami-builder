@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo curl -sSL https://rexray.io/install | sh -s -- stable
+sudo curl -sSL https://rexray.io/install | sh -s -- stable 0.11.4
 
 sudo sh -c "cat << EOF >> /etc/rexray/config.yml
 libstorage:
@@ -35,7 +35,4 @@ efs:
   statusTimeout:       2m
 EOF"
 
-# Verify env vars...
-sudo cat /etc/rexray/config.yml
-
-sudo systemctl start rexray
+# sudo systemctl start rexray
