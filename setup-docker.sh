@@ -4,6 +4,9 @@ DOCKER_COMPOSE_VERSION=1.25.4
 
 sudo yum update -y
 
+# Install jq
+sudo yum install jq -y
+
 # Install Docker and set up
 sudo amazon-linux-extras install docker
 sudo service docker start
